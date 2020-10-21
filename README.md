@@ -62,6 +62,8 @@ def load_and_preprocess_image(path):
 ```
 model_history = model.fit(train_dataset, epochs = 10, validation_data = val_dataset)
 ```
+![train](https://user-images.githubusercontent.com/61773507/96669857-4c35b400-1388-11eb-976b-9f6ad4c36c9c.png)
+
 # Save model
 ```
 model.save('Catanddog_Detect.h5')
