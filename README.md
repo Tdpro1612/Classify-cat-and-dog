@@ -58,6 +58,7 @@ def load_and_preprocess_image(path):
     image = tf.io.read_file(path)
     return preprocess_image(image)
 ```
+![preprocessingimage](https://user-images.githubusercontent.com/61773507/96670199-ff9ea880-1388-11eb-91e0-7b2557267951.png)
 # Train model
 ```
 model_history = model.fit(train_dataset, epochs = 10, validation_data = val_dataset)
