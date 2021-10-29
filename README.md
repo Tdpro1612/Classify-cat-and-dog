@@ -11,7 +11,7 @@ You will see that not every time your model predicts correctly. Giving users a w
 Good luck, and have fun!
 
 
-LINK TO DATASET: https://www.kaggle.com/c/dogs-vs-cats/data
+LINK TO DATASET: https://www.kaggle.com/tongpython/cat-and-dog
 
 #import library
 ```
@@ -69,3 +69,11 @@ model_history = model.fit(train_dataset, epochs = 10, validation_data = val_data
 ```
 model.save('Catanddog_Detect.h5')
 ```
+
+# build flask to check
+![home](https://user-images.githubusercontent.com/61773507/139358763-aa7de629-324f-48be-a3db-a8c0dd1ad1e4.jpg)
+
+then you chose an image and click the button classify,this predict the image and show the result
+
+![classify](https://user-images.githubusercontent.com/61773507/139358953-d913b7ab-9f0d-431a-ab3e-d7420ca17c17.jpg)
+
