@@ -71,6 +71,24 @@ model.save('Catanddog_Detect.h5')
 ```
 
 # build flask to check
+
+**after you run the file jupyter notebook you have the model Catanddog_Detect.h5,you coppy this,and create some forder like the tree**
+```
+* simple_flask
+    * static
+        * images
+        * script.js
+        * style.css
+    * templates
+        * classify.html
+        * home.html
+    * uploads
+    * app.py
+    * Catanddog_Detect.h5
+```
+
+You fix the path where you create the forder simple_flask,then run the app.py to show the flask
+
 ![home](https://user-images.githubusercontent.com/61773507/139358763-aa7de629-324f-48be-a3db-a8c0dd1ad1e4.jpg)
 
 then you chose an image and click the button classify,this predict the image and show the result
